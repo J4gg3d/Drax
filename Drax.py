@@ -1,4 +1,5 @@
 import random as rng
+import keyboard
 import time
 
 print("How is invisible?")
@@ -34,14 +35,17 @@ def Drax(isrun):
 				if bewegung == "Taste 1a":
 					print("*" * 30)
 					print("Taste 1a")
+					keyboard.press_and_release('s')
 					#keyboardbefehl hinzufügen
 				elif bewegung == "Taste 2a":
 					print("*" * 30)
 					print("Taste 2a")
+					keyboard.press_and_release('w')
 					#keyboardbefehl hinzufügen
 				elif bewegung == "Taste 3a":
 					print("*" * 30)
 					print("Taste 3a")
+					keyboard.press_and_release('a')
 					#keyboardbefehl hinzufügen		
 				time.sleep(pause)
 		except KeyboardInterrupt:
