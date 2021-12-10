@@ -40,7 +40,9 @@ def Drax(isrun):
 					runs += 1
 					print(f"movementframe {runs} @{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 					print("Taste 1a")
-					keyboard.press_and_release('s')
+					keyboard.press('s')
+					time.sleep(1)
+					keyboard.release('s')
 					print(f"next frame in {pause}sec")
 					time.sleep(pause)
 				elif bewegung == "Taste 2a":
@@ -48,7 +50,9 @@ def Drax(isrun):
 					runs += 1
 					print(f"movementframe {runs} @{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 					print("Taste 2a")
-					keyboard.press_and_release('w')
+					keyboard.press('w')
+					time.sleep(1)
+					keyboard.release('w')
 					print(f"next frame in {pause}sec")
 					time.sleep(pause)
 				elif bewegung == "Taste 3a":
@@ -56,7 +60,9 @@ def Drax(isrun):
 					runs += 1
 					print(f"movementframe {runs} @{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 					print("Taste 3a")
-					keyboard.press_and_release('a')
+					keyboard.press('a')
+					time.sleep(1)
+					keyboard.release('a')
 					print(f"next frame in {pause}sec")
 					time.sleep(pause)
 		except KeyboardInterrupt:
