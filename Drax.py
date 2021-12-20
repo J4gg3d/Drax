@@ -1,7 +1,17 @@
 import random as rng
 import keyboard
 import time
+import mixtape
 from datetime import datetime
+
+
+print(" _______  .______        ___      ___   ___    .______   ____    ____           __   _  _      _______   _______  ____    _______  ")
+print("|       \ |   _  \      /   \     \  \ /  /    |   _  \  \   \  /   /          |  | | || |    /  _____| /  _____||___ \  |       \ ")
+print("|  .--.  ||  |_)  |    /  ^  \     \  V  /     |  |_)  |  \   \/   /           |  | | || |_  |  |  __  |  |  __    __) | |  .--.  |")
+print("|  |  |  ||      /    /  /_\  \     >   <      |   _  <    \_    _/      .--.  |  | |__   _| |  | |_ | |  | |_ |  |__ <  |  |  |  |")
+print("|  '--'  ||  |\  \-. /  _____  \   /  .  \     |  |_)  |     |  |        |  `--'  |    | |   |  |__| | |  |__| |  ___) | |  '--'  |")
+print("|_______/ | _| `.__|/__/     \__\ /__/ \__\    |______/      |__|         \______/     |_|    \______|  \______| |____/  |_______/ \n\n")
+                                                                                                                                      
 
 print("How is invisible?")
 print("1. Drax")
@@ -83,6 +93,8 @@ def StartMe():
 	elif befehl == "99" or befehl == "test":
 		isrun = 2
 		Drax(isrun)
+	elif befehl == "musik" or befehl == "m":
+		mixtape.Lieder()
 		
 		
 def Ende():
