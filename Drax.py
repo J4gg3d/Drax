@@ -16,6 +16,7 @@ print("|_______/ | _| `.__|/__/     \__\ /__/ \__\    |______/      |__|        
 print("How is invisible?")
 print("1. Drax")
 print("0. ???")
+print("Musik or m")
 
 isrun = 0
 
